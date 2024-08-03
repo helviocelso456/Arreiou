@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: brown;
+    height: 500px;
+}
+
+#navbar{
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+#footer{
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    height: 110px;
+    position: relative;
+    top: 500px;
+    text-align: justify;
+}
+
+#footer_p{
+    text-align: right;
+    margin-left: auto;
+    margin-right: 6px;
+    font-size: 14px;
+}
+
+#links:hover{
+    color: brown;
+    transition: .3s ease-in-out;
+}
+
+
+
