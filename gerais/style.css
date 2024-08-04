@@ -5,12 +5,14 @@
 
 body{
     background-color: brown;
-    height: 500px;
+    height: 1500px;
 }
 
 #navbar{
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 15%;
+    position: fixed;
+    
 }
 
 #footer{
@@ -18,7 +20,7 @@ body{
     border-top-right-radius: 15%;
     height: 110px;
     position: relative;
-    top: 500px;
+    top: 1500px;
     text-align: justify;
 }
 

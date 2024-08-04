@@ -1,0 +1,32 @@
+#painel{
+    width: 90%;
+    height: 500px;
+    border-radius: 5px;
+    
+}
+
+#painel-img{
+    background-image: url(../imagens/av_brasil.jpg);
+    height: 500px;
+    border-radius: 5px;
+}
+
+#painel-img2{
+    background-image: url(../imagens/banner2.jpg);
+    height: 500px;
+    border-radius: 5px;
+}
+
+#painel-img3{
+    background-image: url(../imagens/missao.jpg);
+    height: 500px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hr{
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
