@@ -1,139 +1,65 @@
-@media (max-width: 990px)
+@media(max-width: 990px)
 {
-
-    
+    #banner1
+   {
+     background-image: url(../imagens/banner5\ -\ Editado.jpg);
+     background-size: 100%;
+     height: 400px;
+     background-repeat: no-repeat;
+     border-bottom-left-radius: 5%;
+     border-bottom-right-radius: 5%;
+   }
 }
 
-@media (min-width: 991px)
+@media(min-width:991px)
 {
-    #banner{
-      height: 600px;
-      background-image: url(../imagens/av_brasil.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      border-radius: 8%;
-      
-    }
+   #banner1
+   {
+     background-image: url(../imagens/banner5\ -\ Editado.jpg);
+     background-size: 100%;
+     height: 500px;
+     background-repeat: no-repeat;
+     border-radius: 5px;
+   }
 
-    .pelicula{
-      height: 600px;
-      background-color: rgba(0,0,0,0.4);
-      border-radius: 8%;
-    }
-
-    #imgBanner{
-      border-radius: 5px;
-    }
-
-    #banner_title{
-      color: whitesmoke;
-      font-weight: bold;
-
-      text-shadow: 
-      1px 1px 0 #000, /* Borda direita */
-      -1px 1px 0 #000, /* Borda esquerda */
-      1px -1px 0 #000, /* Borda inferior */
-      -1px -1px 0 #000; /* Borda superior */
-
-      font-style: italic;
-  
-    }
-
-    #c1{
-      height: 600px;
-      border-radius: 5px;
-      width: 95%;
-      
-    }
-
-    .titulo{
-      background-color: rgba(0,0,0,0.6);
-      border-radius: 5px;
-      color: white;
-      padding: 12px;
-
-    }
-
-    .produto{
-      width: 350px;
-      height: 350px;
-      border-radius: 5px;
-    }
-
-    .contentor{
-      width: 350px;
-      height: 420px;
-      border-radius: 5px;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-
-    #p1{
-      background-image: url(../imagens/racao.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-
-    #p2{
-      background-image: url(../imagens/pao.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-
-    #p3{
-      background-image: url(../imagens/ovo.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-
-    #c2{
-      width: 93%;
-      height: 600px;
-      border-radius: 5px;
-      background-color: whitesmoke;
-    }
-
-    #c3
-    {
-      width: 93%;
-      height: 700px;
-      border-radius: 5px;
-      background-color: whitesmoke;
-    }
-
-    .cImg{
-      width: 50%;
-      height: 600px;
-      border-radius: 5px;
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-
-    #img1{
-      background-image: url(../imagens/banner2.jpg);
-    }
-
-    #img2{
-      background-image: url(../imagens/missao.png);
-      height: 700px;
-    }
-
-    .painel-texto
-    {
-      width: 50%;
+   .produto
+   {
+      background-color: rgba(0,0,0,0.5);
+      height: 500px;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
+      border-radius: 5px;
+   }
 
-    .texto{
-      width: 75%;
-      font-size: 20px;
-      text-align: justify;
-    }
+   .produto-imagem
+   {
+     width:50%;
+     height: 500px;
+     border-radius: 5px;
+   }
 
+   .texto
+   {
+    width: 50%;
+   }
+
+   #titulo1
+   {
+     text-shadow: 1px 1px 0 #000, /* Sombra para a borda superior esquerda */
+     -1px -1px 0 #000, /* Sombra para a borda inferior direita */
+     1px -1px 0 #000, /* Sombra para a borda superior direita */
+     -1px 1px 0 #000; /* Sombra para a borda inferior esquerda */
+   }
+
+   #texto2
+   {
+     text-align: right;
+   }
+
+   .mdireita-1
+   {
+     margin-right: 1rem;
+   }
 
    
+  
 }

@@ -1,119 +1,96 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-Br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../bootstrap-5.3.3/bootstrap-5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.3/bootstrap-5.3.3/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../gerais/style.css">
     <script src="../bootstrap-5.3.3/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="shortcut icon" href="../imagens/favicon.jpg" type="image/x-icon">
-    <title>ARREIOU</title>
+    <title>Arreiou - Tá Barato</title>
 </head>
-<body class="d-flex flex-column align-items-center">
-    <nav class="navbar navbar-expand-lg  bg-warning shadow w-100" id="navbar">
-      <div class="container-fluid d-flex align-items-center">
-        <a href="" class="navbar-brand ml-auto">
-            <img src="../imagens/arreiou.png" width="187px" height="82px">
-        </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="navbar-item">
-                        <a href="" id="links" class="nav-link active">Lojas</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="" id="links" class="nav-link active">Refriango</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="" id="links" class="nav-link active">Contactos</a>
-                    </li>
-                </ul>
-            </div>
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning w-75 shadow m-auto mt-5">
+      <a href="index.html" class="navbar-brand logotipo"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#conteudo">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="conteudo">
+       <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+         <a href="" class="nav-link active">Refriango</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="" class="nav-link active">Nossas Lojas</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="" class="nav-link active">Contactos</a>
+        </li>
+       </ul>
+
       </div>
     </nav>
-    
-    <div class="banner w-100 shadow" id="banner">
-     <div class="w-100 pelicula d-lg-flex flex-column align-items-left justify-content-center">
-        <img src="../imagens/favicon.jpg" class="ms-lg-5" id="imgBanner" width="97px" height="97px">
-        <h4 class="card-subtitle mt-2 ms-lg-5" id="banner_title">ARREIOU</h4>
-        <p class="card-text text-light ms-lg-5 w-25">Qualidade aos preços mais baixos. <br>
-            Bem-vindo ao Arreiou, o destino ideal para quem busca compras de qualidade com preços que 
-            cabem no seu bolso.
-        </p>
-        <a href="" class="btn btn-warning w-25 ms-lg-5">Conheças as nossas lojas.</a>
-     </div>
+
+    <div class="w-75 m-auto shadow " id="banner1">
+
     </div>
-    <div class="d-lg-flex flex-column align-items-center" id="c1">
-      <h3 class="card-title mt-5 titulo">Em Alta</h3>
-      <div class="d-lg-flex align-items-center mt-5">
-       <div class="contentor shadow bg-light">
-        <div class="produto" id="p1"></div>
-        <h5 class="card-title text-center mt-4">A Ração do Arreiou</h5>
+   
+    <div class="d-flex flex-column w-75 m-auto mt-5 text-light">
+      <h1 class="card-title text-light text-center" id="titulo1">Produtos em alta</h1>
+      <hr class="w-25 m-auto mt-3">
+
+      <div class="w-75 produto shadow  mt-5 m-auto ">
+       <img src="../imagens/pao.jpg" class="produto-imagem">
+       <div class="d-flex flex-column  justify-content-center texto">
+        <h3 class="card-title ms-3">O Pão do Arreiou</h3>
+        <hr class="w-25 ms-3">
+        <p class="card-text w-75 ms-3">
+          Quando se trata de pão, poucos lugares conseguem superar a excelência do Arreiou, o verdadeiro ícone de sabor em Luanda. 
+          O pão do Arreiou não é apenas um alimento; é uma experiência culinária que encanta os sentidos e aquece o coração.
+        </p>
+        <a href="" class="btn btn-danger w-50 ms-3">Encontre - nos</a>
+       </div>
+      </div>
+
+      <div class="w-75 produto shadow  mt-5 m-auto ">
+        <div class="d-flex flex-column justify-content-center texto" id="texto2">
+          <h3 class="card-title mdireita-1">A Ração do Arreiou</h3>
+          <hr class="w-25 ms-auto mdireita-1">
+          <p class="card-text w-75 ms-auto mdireita-1">
+            Quando se trata de cuidar dos nossos amigos de quatro patas, a qualidade da ração é essencial para garantir saúde e bem-estar. 
+            A ração do Arreiou tem se destacado como uma das melhores opções disponíveis em Luanda, oferecendo uma combinação impecável 
+            de nutrição e sabor que conquista tanto os donos de pets quanto os próprios animais.
+          </p>
+          <a href="" class="btn btn-danger w-50 ms-auto mdireita-1" >Encontre - nos</a>
+        </div>
+        <img src="../imagens/racao.jpg" class="produto-imagem">
        </div>
 
-        <div class="contentor bg-light shadow">
-            <div class="produto" id="p2"></div>
-            <h5 class="card-title text-center mt-4">O Pão do Arreiou</h5>
+       <div class="w-75 produto shadow  mt-5 m-auto">
+        <img src="../imagens/ovo.jpg" class="produto-imagem">
+        <div class="d-flex flex-column  justify-content-center texto">
+         <h3 class="card-title ms-3">Os Ovos do Arreiou</h3>
+         <hr class="w-25 ms-3">
+         <p class="card-text w-75 ms-3">
+          Quando se fala em qualidade e frescor no mercado de alimentos, os ovos do Arreiou se destacam como uma verdadeira referência. 
+          Conhecidos por sua excepcional qualidade e sabor inigualável, os ovos do Arreiou são um favorito garantido nas mesas de Luanda, 
+          conquistando o paladar dos mais exigentes.
+         </p>
+         <a href="" class="btn btn-danger w-50 ms-3">Encontre - nos</a>
         </div>
-
-        <div class="contentor bg-light shadow">
-            <div class="produto" id="p3"></div> 
-            <h5 class="card-title text-center mt-lg-4">Os Ovos do Arreiou</h5>
-        </div>  
-
-      </div>
+       </div>
     </div>
 
-    <hr class="main-hr mt-5 w-50">
-
-    <div class="d-lg-flex align-items-center mt-5 shadow" id="c2">
-      <div class="cImg" id="img1"></div>
-      <div class="painel-texto">
-        <h3 class="card-title titulo w-75 text-center">Quem Somos?</h3>
-        <hr class="w-25">
-        <p class="card-text texto">
-                Fundada com o objetivo de transformar a experiência de 
-                compra em Angola, a Arreiou surgiu como uma resposta à demanda por produtos 
-                alimentícios de alta qualidade a preços acessíveis. Desde nossa inauguração, 
-                temos trabalhado com um compromisso inabalável de fornecer aos nossos clientes 
-                uma seleção de produtos frescos e confiáveis, mantendo sempre o foco na economia 
-                e na satisfação.
-        </p>
-
-        <a href="" class="btn btn-warning w-75 p-2">Visite - nos</a>
-      </div>
+    <div class="w-100 mt-5">
+      <h1 class="card-title text-light text-center" id="titulo1">Receitas Caseiras</h1>
+      <hr class="w-25 m-auto mt-3">
     </div>
 
-    <hr class="main_hr w-50">
-
-    <div class="d-lg-flex align-items-center mt-5 shadow" id="c3">
-        <div class="painel-texto">
-            <h3 class="card-title titulo w-75 text-center">Missão</h3>
-            <hr class="w-25">
-            <p class="card-text texto">
-                No Arreiou, a nossa missão é fornecer a 
-                melhor seleção de produtos alimentícios, sempre com um foco inabalável na qualidade 
-                e na acessibilidade. Trabalhamos incansavelmente para garantir que você e sua 
-                família possam encontrar tudo o que precisam, desde cortes de carne suculentos 
-                até frutas e vegetais frescos, sempre a preços que são verdadeiramente competitivos.
-            </p>
     
-            <a href="" class="btn btn-warning w-75 p-2">Visite - nos</a>
-          </div>
-        <div class="cImg" id="img2"></div>
-      </div>
 
-      <hr class="main_hr w-50">
-         
-
-
-    <footer class="footer w-100 bg-warning d-flex flex-column align-items-center justify-content-center shadow" id="footer">
-            <img src="../imagens/arreiou.png" width="187px" height="82px">
-        <p class="card-text" id="footer_p"> 2024 ARREIOU &copy; - Todos os direitos reservados.</p>
-        <a href="" class="btn btn-danger " id="btn_footer">Contacte - nos</a>
-    </footer>
 </body>
 </html>

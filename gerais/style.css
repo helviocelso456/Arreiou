@@ -1,42 +1,27 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
-    background-color: rgb(219, 219, 219);
-    height: 3000x;
+body
+{
+    /*background-color: #ffc107;*/
+    background-color: firebrick;
+    display: flex;
+    flex-direction: column;
 }
 
-#navbar{
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
-    position: fixed;    
+.logotipo
+{
+    background-image: url(../imagens/favicon.jpg);
+    background-size: 100%;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
 }
 
-#footer{
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
-    height: 200px;
-    position: relative;
-    top: 3000px;
+nav
+{
+    border-radius: 5px;
 }
-
-#footer_p{
-    font-size: 14px;
-}
-
-#links:hover{
-    color: brown;
-    transition: .3s ease-in-out;
-}
-
-.main_hr{
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-    font-weight: bold;
-}
-
-
 
