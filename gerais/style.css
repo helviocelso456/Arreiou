@@ -6,22 +6,51 @@
 body
 {
     /*background-color: #ffc107;*/
-    background-color: firebrick;
+    background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
 }
 
 .logotipo
 {
-    background-image: url(../imagens/favicon.jpg);
+    background-image: url(../imagens/arreiou3.png);
     background-size: 100%;
     width: 80px;
     height: 80px;
-    border-radius: 5px;
+    border: none;
 }
 
-nav
-{
-    border-radius: 5px;
+/*Hovers*/
+
+nav .nav-link:hover
+{   
+    transition: .3s ease-in-out;
+    color: brown;
 }
+
+footer
+{
+    height: 330px;
+}
+
+.footer-logo
+{
+    width: 220px;
+    height: 80px;
+    background-image: url(../imagens/arreiou.png);
+    background-size: 100%;
+    margin-bottom: -5px;
+}
+
+.footer-conteudo
+{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 
