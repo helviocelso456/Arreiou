@@ -83,7 +83,8 @@
     }
 
     .contentor-texto p 
-    {
+    {  
+       text-align: left;
        width: 70%;
     }
 
