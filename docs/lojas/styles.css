@@ -1,0 +1,100 @@
+@media (max-width:991px)
+{
+    
+    footer 
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    #facebook-icon
+    {
+        width: 29px;
+        height: 29px;
+        border-radius: 50%;
+        background-image: url(../imagens/facebook_icon.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+      }
+
+    #instagram-icon
+    {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-image: url(../imagens/instagram_icon.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+   }
+
+   #btn1, #btn2
+   {
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 100px;
+      border: 1px solid rgba(0,0,0,0.6);
+   }
+
+   #btn3
+   {
+      width: 200px;
+      border: 1px solid rgba(0,0,0,0.6);
+   }
+}
+
+@media (min-width:992px)
+{
+    
+    
+    footer 
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    #facebook-icon
+    {
+        width: 29px;
+        height: 29px;
+        border-radius: 50%;
+        background-image: url(../imagens/facebook_icon.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+      }
+
+    #instagram-icon
+    {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-image: url(../imagens/instagram_icon.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+   }
+
+   #btn1, #btn2
+   {
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 100px;
+      border: 1px solid rgba(0,0,0,0.6);
+   }
+
+   #btn3
+   {
+      width: 200px;
+      border: 1px solid rgba(0,0,0,0.6);
+   }
+
+   
+
+   
+}
