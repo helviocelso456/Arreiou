@@ -46,8 +46,17 @@
    }
 
    h1 
-   {
+   {  
+      font-family: 'Arial', sans-serif;
       font-weight: bold;
+      padding: 10px;
+      
+   }
+
+   hr
+   {
+      width: 100px !important;
+      margin-top: -.5rem !important;
    }
 
   
@@ -199,8 +208,17 @@
    }
 
    h1 
-   {
+   {  
+      font-family: 'Arial', sans-serif;
       font-weight: bold;
+      padding: 10px;
+      
+   }
+
+   hr
+   {
+      width: 100px !important;
+      margin-top: -.5rem !important;
    }
 
 
