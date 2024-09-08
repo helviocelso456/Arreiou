@@ -45,6 +45,11 @@
       border: 1px solid rgba(0,0,0,0.6);
    }
 
+   h1 
+   {
+      font-weight: bold;
+   }
+
   
 
    #contentor
@@ -63,7 +68,8 @@
 
   .loja 
   {
-     margin-top: 3rem;
+     margin-top: 1rem;
+     margin-bottom: 3rem;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -78,9 +84,8 @@
 
    .loja-legenda
    {
-       position: relative;
-       top: -1rem;
-       width: 290px;
+       
+       width: 320px;
        height: 160px;
        border-radius: 5px;
        display: flex;
@@ -193,6 +198,11 @@
       border: 1px solid rgba(0,0,0,0.6);
    }
 
+   h1 
+   {
+      font-weight: bold;
+   }
+
 
 
    #contentor
@@ -220,7 +230,8 @@
 
   .loja 
   {
-     margin-top: 3rem;
+     margin-top: 1rem;
+     margin-bottom: 3rem;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -244,14 +255,11 @@
        display: flex;
        flex-direction: column;
        align-items: center;
+       justify-content: center;
        text-align: center;
    }
 
-   .loja-legenda h5 
-   {
-       margin-top: 2rem;
-       margin-left: 1rem;
-   }
+
 
   
 
